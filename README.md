@@ -1,9 +1,11 @@
-# resturant_app
+#  Strada_restaurant_app
 
 ## Description
 resturant_app is a Flutter-first restaurant interface prototype. It focuses on clean widget composition, reusable UI parts, and cross-platform delivery from one codebase.
 
 The app shell and theme are defined in [lib/main.dart](lib/main.dart). The main screen layout lives in [lib/home_page.dart](lib/home_page.dart), while reusable widgets are separated into [lib/category_card.dart](lib/category_card.dart) and [lib/custombottom_navbar.dart](lib/custombottom_navbar.dart). Static image assets are stored in [assets/images](assets/images) and registered in [pubspec.yaml](pubspec.yaml). Web bootstrap and install metadata are configured in [web/index.html](web/index.html) and [web/manifest.json](web/manifest.json).
+
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/16096893-edcd-4011-82a9-b5370bbe523d" />
 
 ## Interesting Techniques In This Codebase
 - Modular UI composition with focused stateless widgets in [lib](lib), keeping presentation concerns local and testable.
